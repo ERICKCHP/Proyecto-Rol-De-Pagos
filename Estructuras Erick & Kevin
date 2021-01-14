@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct persona {
+	char cedula[10];
+	char nombre[10];
+	char apellido[10]; 
+	
+	
+};
+
+struct Empresa{
+	char nombre[10];
+	int ruc; 
+	int local;
+	int gerente,subgerente,personal_base;
+	float total_ingresos;
+	float total_descuentos; 
+	float horas_extra;
+	float multas; 
+	float anticipos;
+	float fondo_reserva; 
+	float liquido; 
+     	
+	
+};
